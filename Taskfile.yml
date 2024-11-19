@@ -1,0 +1,29 @@
+---
+
+version: '3'
+
+tasks:
+  enc:
+    desc: Encrypt secret files
+    cmds:
+      - sops -e ./.env > ./.env.enc
+    ignore_error: true
+  dec:
+    desc: Decrypt secret files
+    cmds:
+      # - git restore ./.env
+      - git pull origin
+      - sops -d --input-type dotenv --output-type dotenv ./.env.enc > ./.env
+  update:
+    desc: Update running containers
+    cmds:
+      - docker compose up --force-recreate --build -d
+      - docker image prune -a -f
+  up:
+    desc: Create and start containers
+    cmds:
+      - docker compose up
+  default:
+    cmds:
+      - task -l
+    silent: true
