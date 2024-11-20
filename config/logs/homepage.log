@@ -96,3 +96,124 @@
  13 |         - icon: si-material-for-mkdocs
 --------------------^
  14 |           href: https://nicholaswilde.io/notes/
+[2024-11-20T20:42:35.153Z] error: bad indentation of a sequence entry (17:24)
+
+ 14 |           href: https://squidfunk.github.io/mkdocs-mat ...
+ 15 | 
+ 16 | - Icons & Emoji
+ 17 |     - Self Hosted Icons:
+-----------------------------^
+ 18 |         - icon: sh-selfh-st-light.png
+ 19 |           href: https://selfh.st/icons/
+[2024-11-20T20:42:35.188Z] error: <index> YAMLException: bad indentation of a sequence entry (17:24)
+
+ 14 |           href: https://squidfunk.github.io/mkdocs-mat ...
+ 15 | 
+ 16 | - Icons & Emoji
+ 17 |     - Self Hosted Icons:
+-----------------------------^
+ 18 |         - icon: sh-selfh-st-light.png
+ 19 |           href: https://selfh.st/icons/
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (/app/.next/server/pages/index.js:3632:69)
+    at async getStaticProps (/app/.next/server/pages/index.js:3151:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/render.js:386:20)
+[2024-11-20T20:42:35.263Z] error: <index> YAMLException: bad indentation of a sequence entry (17:24)
+
+ 14 |           href: https://squidfunk.github.io/mkdocs-mat ...
+ 15 | 
+ 16 | - Icons & Emoji
+ 17 |     - Self Hosted Icons:
+-----------------------------^
+ 18 |         - icon: sh-selfh-st-light.png
+ 19 |           href: https://selfh.st/icons/
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (/app/.next/server/pages/index.js:3632:69)
+    at async getStaticProps (/app/.next/server/pages/index.js:3151:23)
+    at async Object.renderToHTML (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/render.js:386:20)
+[2024-11-20T20:42:35.404Z] error: bad indentation of a sequence entry (17:24)
+
+ 14 |           href: https://squidfunk.github.io/mkdocs-mat ...
+ 15 | 
+ 16 | - Icons & Emoji
+ 17 |     - Self Hosted Icons:
+-----------------------------^
+ 18 |         - icon: sh-selfh-st-light.png
+ 19 |           href: https://selfh.st/icons/
+[2024-11-20T20:49:05.310Z] error: tab characters must not be used in indentation (13:3)
+
+ 10 |         - icon: si-materialformkdocs
+ 11 |           href: https://nicholasw ...
+ 12 | - Icons & Emoji:
+ 13 |   →- Simple Icons:
+--------^
+ 14 |   →    - icon: si-simpleicons
+ 15 |   →      href: https://simpleicon ...
+[2024-11-20T20:49:05.364Z] error: <index> YAMLException: tab characters must not be used in indentation (13:3)
+
+ 10 |         - icon: si-materialformkdocs
+ 11 |           href: https://nicholasw ...
+ 12 | - Icons & Emoji:
+ 13 |   →- Simple Icons:
+--------^
+ 14 |   →    - icon: si-simpleicons
+ 15 |   →      href: https://simpleicon ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2152:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (/app/.next/server/pages/index.js:3632:69)
+[2024-11-20T20:49:05.553Z] error: tab characters must not be used in indentation (13:3)
+
+ 10 |         - icon: si-materialformkdocs
+ 11 |           href: https://nicholasw ...
+ 12 | - Icons & Emoji:
+ 13 |   →- Simple Icons:
+--------^
+ 14 |   →    - icon: si-simpleicons
+ 15 |   →      href: https://simpleicon ...
+[2024-11-20T20:49:52.084Z] error: <index> YAMLException: tab characters must not be used in indentation (16:3)
+
+ 13 |     - Simple Icons:
+ 14 |         - icon: si-simpleicons
+ 15 |           href: https://simpleico ...
+ 16 |   →- Material Design Icons:
+--------^
+ 17 |   →    - icon: si-materialdesignicons
+ 18 |   →      href: https://pictogramm ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2152:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (/app/.next/server/pages/index.js:3632:69)
+[2024-11-20T20:49:52.314Z] error: tab characters must not be used in indentation (16:3)
+
+ 13 |     - Simple Icons:
+ 14 |         - icon: si-simpleicons
+ 15 |           href: https://simpleico ...
+ 16 |   →- Material Design Icons:
+--------^
+ 17 |   →    - icon: si-materialdesignicons
+ 18 |   →      href: https://pictogramm ...

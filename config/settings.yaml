@@ -3,9 +3,12 @@ providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
 layout:
-  My First Group:
-  My Second Group:
-  My Third Group:
+  Services:
+    style: row
+    columns: 3
   Developer:
+    style: row
+    columns: 3
+  Icons & Emoji:
     style: row
     columns: 3
