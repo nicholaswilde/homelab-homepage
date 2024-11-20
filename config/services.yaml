@@ -3,16 +3,31 @@
 # https://gethomepage.dev/configs/services
 
 - My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+    - Home Assistant:
+        icon: sh-home-assistant.png
+        href: http://192.168.1.143:8123/
+    - Portainer:
+        icon: sh-portainer.png
+        href: https://192.168.1.143:9443/
+    - Terminal:
+        icon: si-cockpit-#0066CC
+        href: https://192.168.1.143:9090/
 
 - My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+    - UniFi:
+        icon: sh-ubiquiti-unifi.png
+        href: http://192.168.1.148/
+    - Code Server:
+        icon: sh-visual-studio-code.png
+        href: http://192.168.1.143:8443/
+    - Proxmox:
+        icon: sh-proxmox.png
+        href: https://192.168.1.198:8006/
 
 - My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+    - Node-RED:
+        icon: sh-node-red.png
+        href: http://192.168.1.143:1880/
+    - Terminal:
+        icon: mdi-console-line
+        href: https://192.168.1.143:9090/cockpit/@localhost/system/terminal.html

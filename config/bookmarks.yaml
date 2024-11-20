@@ -1,18 +1,14 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/bookmarks
-
 - Developer:
-    - Github:
-        - abbr: GH
-          href: https://github.com/
-
-- Social:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
-
-- Entertainment:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+    - Repositories:
+        - icon: si-github
+          href: https://github.com/nicholaswilde?tab=repositories
+    - Proxmox VE Helper-Scripts:
+        - icon: https://raw.githubusercontent.com/community-scripts/ProxmoxVE/refs/heads/main/frontend/public/logo.png
+          href: https://community-scripts.github.io/ProxmoxVE/
+    - Notes:
+        - icon: si-materialformkdocs
+          href: https://nicholaswilde.io/notes/
+    - Emoji Search:
+        - icon: si-materialformkdocs
+          href: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/

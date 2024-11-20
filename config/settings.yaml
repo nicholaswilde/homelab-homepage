@@ -1,7 +1,11 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/settings
-
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+layout:
+  My First Group:
+  My Second Group:
+  My Third Group:
+  Developer:
+    style: row
+    columns: 3

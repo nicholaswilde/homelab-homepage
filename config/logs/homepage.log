@@ -5,3 +5,94 @@
 [2024-11-19T20:57:33.259Z] info: custom.css was copied to the config folder
 [2024-11-19T20:57:33.277Z] info: custom.js was copied to the config folder
 [2024-11-19T20:57:33.945Z] info: kubernetes.yaml was copied to the config folder
+[2024-11-20T06:32:33.369Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T06:32:33.371Z] error: YAMLException: bad indentation of a sequence entry (30:13)
+
+ 27 |         href: http://192.168.1.143:1880/
+ 28 |         description: Homepage is 😎
+ 29 |     - Cockpit
+ 30 |         icon: sh-cockpit.png
+------------------^
+ 31 |         href: https://192.168.1.143:9090/
+[2024-11-20T06:32:33.414Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T06:32:33.414Z] error: YAMLException: bad indentation of a sequence entry (30:13)
+
+ 27 |         href: http://192.168.1.143:1880/
+ 28 |         description: Homepage is 😎
+ 29 |     - Cockpit
+ 30 |         icon: sh-cockpit.png
+------------------^
+ 31 |         href: https://192.168.1.143:9090/
+[2024-11-20T06:32:34.010Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T06:32:34.010Z] error: YAMLException: bad indentation of a sequence entry (30:13)
+
+ 27 |         href: http://192.168.1.143:1880/
+ 28 |         description: Homepage is 😎
+ 29 |     - Cockpit
+ 30 |         icon: sh-cockpit.png
+------------------^
+ 31 |         href: https://192.168.1.143:9090/
+[2024-11-20T07:00:27.363Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T07:00:27.363Z] error: YAMLException: bad indentation of a sequence entry (24:13)
+
+ 21 |         icon: sh-visual-studio-code.png
+ 22 |         href: http://192.168.1.143:8443/
+ 23 |     - Proxmox
+ 24 |         icon: sh-proxmox.png
+------------------^
+ 25 |         href: https://192.168.1.198:8006/
+ 26 | 
+[2024-11-20T07:00:27.417Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T07:00:27.418Z] error: YAMLException: bad indentation of a sequence entry (24:13)
+
+ 21 |         icon: sh-visual-studio-code.png
+ 22 |         href: http://192.168.1.143:8443/
+ 23 |     - Proxmox
+ 24 |         icon: sh-proxmox.png
+------------------^
+ 25 |         href: https://192.168.1.198:8006/
+ 26 | 
+[2024-11-20T07:00:28.160Z] error: Failed to load services.yaml, please check for errors
+[2024-11-20T07:00:28.161Z] error: YAMLException: bad indentation of a sequence entry (24:13)
+
+ 21 |         icon: sh-visual-studio-code.png
+ 22 |         href: http://192.168.1.143:8443/
+ 23 |     - Proxmox
+ 24 |         icon: sh-proxmox.png
+------------------^
+ 25 |         href: https://192.168.1.198:8006/
+ 26 | 
+[2024-11-20T07:10:30.671Z] error: bad indentation of a sequence entry (13:15)
+
+ 10 |         - icon: https://raw.githubusercontent ...
+ 11 |           href: https://community-scripts.git ...
+ 12 |     - Notes
+ 13 |         - icon: si-material-for-mkdocs
+--------------------^
+ 14 |           href: https://nicholaswilde.io/notes/
+[2024-11-20T07:10:30.905Z] error: <index> YAMLException: bad indentation of a sequence entry (13:15)
+
+ 10 |         - icon: https://raw.githubusercontent ...
+ 11 |           href: https://community-scripts.git ...
+ 12 |     - Notes
+ 13 |         - icon: si-material-for-mkdocs
+--------------------^
+ 14 |           href: https://nicholaswilde.io/notes/
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2024-11-20T07:10:31.377Z] error: bad indentation of a sequence entry (13:15)
+
+ 10 |         - icon: https://raw.githubusercontent ...
+ 11 |           href: https://community-scripts.git ...
+ 12 |     - Notes
+ 13 |         - icon: si-material-for-mkdocs
+--------------------^
+ 14 |           href: https://nicholaswilde.io/notes/
