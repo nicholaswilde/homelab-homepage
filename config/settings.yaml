@@ -1,16 +1,1 @@
----
-theme: dark
-color: slate
-providers:
-  openweathermap: openweathermapapikey
-  weatherapi: weatherapiapikey
-layout:
-  Services:
-    style: row
-    columns: 3
-  Developer:
-    style: row
-    columns: 3
-  Icons & Emoji:
-    style: row
-    columns: 3
+/opt/homepage/config/settings.yaml
