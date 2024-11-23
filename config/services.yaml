@@ -1,8 +1,8 @@
 ---
 - Services:
     - Home Assistant:
-        icon: sh-home-assistant.png
         href: http://192.168.1.143:8123/
+        icon: sh-home-assistant.png
     - Portainer:
         icon: sh-portainer.png
         href: https://192.168.1.143:9443/
@@ -11,7 +11,7 @@
         href: https://192.168.1.143:9090/
     - UniFi:
         icon: sh-ubiquiti-unifi.png
-        href: http://192.168.1.148/
+        href: https://unifi.nicholaswilde.io/
     - Code Server:
         icon: sh-visual-studio-code.png
         href: http://192.168.1.143:8443/
@@ -27,3 +27,21 @@
     - netboot.xyz:
         icon: sh-netboot-xyz-light.png
         href: http://192.168.198:3000/
+    - Change Detection:
+        icon: sh-changedetection.png
+        href: http://192.168.1.150:5000/
+    - Z-Wave JS UI:
+        icon: sh-z-wave-js-ui.png
+        href: http://192.168.1.143:8091/
+    - VS Code:
+        icon: sh-visual-studio-code.png
+        href: http://192.168.1.143:8443/
+    - Uptime Kuma:
+        icon: sh-uptime-kuma.png
+        href: http://192.168.1.143:3001/
+    - Portainer:
+        icon: sh-portainer.png
+        href: https://192.168.1.143:9443/
+    - ESPHome:
+        icon: sh-esphome.png
+        href: http://192.168.1.143:6052/
