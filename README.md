@@ -1,4 +1,4 @@
-# :home: homelab-homepage
+# :test_tube: homelab-homepage :house:
 
 A test homepage using homepage for my homelab
 
