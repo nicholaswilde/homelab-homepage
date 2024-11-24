@@ -1,1 +1,50 @@
-/opt/homepage/config/services.yaml
+---
+- Services:
+    - Home Assistant:
+        href: http://192.168.1.143:8123/
+        icon: sh-home-assistant.png
+    - Portainer:
+        icon: sh-portainer.png
+        href: https://192.168.1.143:9443/
+    - Terminal:
+        icon: si-cockpit-#0066CC
+        href: https://192.168.1.143:9090/
+    - UniFi:
+        icon: sh-ubiquiti-unifi.png
+        href: https://unifi.nicholaswilde.io/
+    - Code Server:
+        icon: sh-visual-studio-code.png
+        href: http://192.168.1.143:8443/
+    - Proxmox:
+        icon: sh-proxmox.png
+        href: https://pve.nicholaswilde.io:8006/
+    - Node-RED:
+        icon: sh-node-red.png
+        href: https://nodered.nicholaswilde.io/
+    - Terminal:
+        icon: mdi-console-line
+        href: https://192.168.1.143:9090/cockpit/@localhost/system/terminal.html
+    - netboot.xyz:
+        icon: sh-netboot-xyz-light.png
+        href: http://192.168.198:3000/
+    - Change Detection:
+        icon: sh-changedetection.png
+        href: http://cd.nicholaswilde.io:5000/
+    - Z-Wave JS UI:
+        icon: sh-z-wave-js-ui.png
+        href: http://192.168.1.143:8091/
+    - VS Code:
+        icon: sh-visual-studio-code.png
+        href: http://192.168.1.143:8443/
+    - Uptime Kuma:
+        icon: sh-uptime-kuma.png
+        href: https://up.nicholaswilde.io/
+    - Portainer:
+        icon: sh-portainer.png
+        href: https://portainer.nicholaswilde.io/
+    - ESPHome:
+        icon: sh-esphome.png
+        href: https://esphome.nicholaswilde.io/
+    - AdGuard:
+        icon: sh-adguard-home.png
+        href: http://adguard.nicholaswilde.io/

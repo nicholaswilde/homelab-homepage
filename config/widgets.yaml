@@ -1,1 +1,12 @@
-/opt/homepage/config/widgets.yaml
+---
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: google
+    target: _blank
+    focus: true
+    showSearchSuggestions: true
+
