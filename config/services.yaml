@@ -48,4 +48,6 @@
     - AdGuard:
         icon: sh-adguard-home.png
         href: http://adguard.nicholaswilde.io/
-
+    - Nginx Proxy Manager:
+        icon: sh-nginx-proxy-manager.png
+        href: http://192.168.1.217:81
