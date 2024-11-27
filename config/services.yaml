@@ -51,3 +51,6 @@
     - Nginx Proxy Manager:
         icon: sh-nginx-proxy-manager.png
         href: http://192.168.1.217:81
+    - Traefik:
+        icon: sh-traefik.png
+        href: http://traefik.nicholaswilde.io:8080/
