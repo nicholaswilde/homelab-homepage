@@ -35,7 +35,7 @@
         href: http://192.168.1.143:8091/
     - VS Code:
         icon: sh-visual-studio-code.png
-        href: http://192.168.1.143:8443/
+        href: https://code.nicholaswilde.io/
     - Uptime Kuma:
         icon: sh-uptime-kuma.png
         href: https://up.nicholaswilde.io/
@@ -54,3 +54,15 @@
     - Traefik:
         icon: sh-traefik.png
         href: http://traefik.nicholaswilde.io:8080/
+    - Grafana:
+        icon: sh-grafana.png
+        href: http://grafana.nicholaswilde.io:3000/
+    - Prometheus:
+        icon: sh-prometheus.png
+        href: http://prometheus.nicholaswilde.io:9090/
+    - qBittorrent:
+        icon: sh-qbittorrent.png
+        href: http://qbittorrent.nicholaswilde.io:8090/
+    - InfluxDB:
+        icon: sh-influxdb.png
+        href: http://influxdb.nicholaswilde.io:8086/
