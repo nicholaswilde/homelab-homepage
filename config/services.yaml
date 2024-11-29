@@ -18,6 +18,9 @@
     - Proxmox:
         icon: sh-proxmox.png
         href: https://pve.nicholaswilde.io:8006/
+    - Proxmox Backup:
+        icon: sh-proxmox.png
+        href: https://pbs.nicholaswilde.io:8007/
     - Node-RED:
         icon: sh-node-red.png
         href: https://nodered.nicholaswilde.io/
