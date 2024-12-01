@@ -11,13 +11,13 @@
         href: https://192.168.1.143:9090/
     - UniFi:
         icon: sh-ubiquiti-unifi.png
-        href: https://unifi.nicholaswilde.io/
+        href: https://192.168.1.148
     - Code Server:
         icon: sh-visual-studio-code.png
         href: http://192.168.1.143:8443/
     - Proxmox:
         icon: sh-proxmox.png
-        href: https://pve.nicholaswilde.io:8006/
+        href: https://pve.nicholaswilde.io/
     - Proxmox Backup:
         icon: sh-proxmox.png
         href: https://pbs.nicholaswilde.io:8007/
@@ -51,9 +51,6 @@
     - AdGuard:
         icon: sh-adguard-home.png
         href: http://adguard.nicholaswilde.io/
-    - Nginx Proxy Manager:
-        icon: sh-nginx-proxy-manager.png
-        href: http://192.168.1.217:81
     - Traefik:
         icon: sh-traefik.png
         href: http://traefik.nicholaswilde.io:8080/
@@ -69,3 +66,6 @@
     - InfluxDB:
         icon: sh-influxdb.png
         href: http://influxdb.nicholaswilde.io:8086/
+    - Apt-Cacher NG:
+        icon: mdi-package-variant
+        href: http://aptcache.nicholaswilde.io:3142/acng-report.html
