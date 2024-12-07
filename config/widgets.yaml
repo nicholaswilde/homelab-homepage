@@ -6,7 +6,7 @@
 
 - search:
     provider: google
-    target: _blank
-    focus: true
+    target: _self
+    focus: false
     showSearchSuggestions: true
 
