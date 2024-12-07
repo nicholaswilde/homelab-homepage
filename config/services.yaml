@@ -1,32 +1,29 @@
 ---
 - Services:
+    - Proxmox:
+        icon: sh-proxmox.png
+        href: https://pve.nicholaswilde.io/
+    - Proxmox Arm64:
+        icon: sh-proxmox.png
+        href: https://pve02.nicholaswilde.io:8006
+    - Proxmox Backup:
+        icon: sh-proxmox.png
+        href: https://pbs.nicholaswilde.io:8007/
     - Home Assistant:
-        href: http://192.168.1.143:8123/
+        href: http://ha.nicholaswilde.io:8123/
         icon: sh-home-assistant.png
     - Portainer:
         icon: sh-portainer.png
-        href: https://192.168.1.143:9443/
-    - Terminal:
-        icon: si-cockpit-#0066CC
-        href: https://192.168.1.143:9090/
+        href: https://portainer.nicholaswilde.io
     - UniFi:
         icon: sh-ubiquiti-unifi.png
         href: https://192.168.1.148
     - Code Server:
         icon: sh-visual-studio-code.png
         href: http://192.168.1.143:8443/
-    - Proxmox:
-        icon: sh-proxmox.png
-        href: https://pve.nicholaswilde.io/
-    - Proxmox Backup:
-        icon: sh-proxmox.png
-        href: https://pbs.nicholaswilde.io:8007/
     - Node-RED:
         icon: sh-node-red.png
         href: https://nodered.nicholaswilde.io/
-    - Terminal:
-        icon: mdi-console-line
-        href: https://192.168.1.143:9090/cockpit/@localhost/system/terminal.html
     - netboot.xyz:
         icon: sh-netboot-xyz-light.png
         href: http://192.168.1.194:3000/
