@@ -12,6 +12,9 @@
     - Home Assistant:
         href: http://ha.nicholaswilde.io:8123/
         icon: sh-home-assistant.png
+    - Chronograph:
+        icon: https://thesqldump.code.blog/wp-content/uploads/2019/11/influxlogo-small.png
+        href: http://chronograph.nicholaswilde.io:8888
     - Portainer:
         icon: sh-portainer.png
         href: https://portainer.nicholaswilde.io

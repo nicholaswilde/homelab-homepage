@@ -15,6 +15,9 @@
     - Notes:
         - icon: si-materialformkdocs
           href: https://nicholaswilde.io/notes/
+    - Cloudflare:
+        - icon: sh-cloudflare.png
+          href: https://cloudflare.com
 - Icons & Emoji:
     - Simple Icons:
         - icon: si-simpleicons
