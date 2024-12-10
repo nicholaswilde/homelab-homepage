@@ -7,12 +7,27 @@ providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
 layout:
-  Services:
+  NUC-01:
     style: row
     columns: 3
+    icon: mdi-desktop-classic
+  AMD64:
+    style: row
+    columns: 3
+    icon: mdi-laptop
+  ARM64:
+    style: row
+    columns: 3
+    icon: si-raspberrypi
+  Other:
+    style: row
+    columns: 3
+    icon: mdi-folder-multiple
   Developer:
     style: row
     columns: 3
+    icon: mdi-cog
   Icons & Emoji:
     style: row
     columns: 3
+    icon: mdi-emoticon

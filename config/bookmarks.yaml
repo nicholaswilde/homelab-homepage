@@ -35,8 +35,10 @@
         - icon: si-materialformkdocs
           href: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
     - Emojipedia:
-        - icon: https://blog.emojipedia.org/content/images/2017/08/emojipedia300.png
+        # - icon: https://blog.emojipedia.org/content/images/2017/08/emojipedia300.png
+        - icon: mdi-emoticon
           href: https://emojipedia.org/
     - EmojiDB:
-        - icon: https://cdn.glitch.me/4733404f-fac7-44c0-9994-ad38268ee641%2Fopen-file-folder_1f4c2.png
+        # - icon: https://cdn.glitch.me/4733404f-fac7-44c0-9994-ad38268ee641%2Fopen-file-folder_1f4c2.png
+        - icon: mdi-folder-open
           href: https://emojidb.org/
