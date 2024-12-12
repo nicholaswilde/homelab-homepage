@@ -32,7 +32,7 @@
         icon: si-traefikproxy
         href: http://traefik.nicholaswilde.io:8080/
     - qBittorrent:
-        icon: sh-qbittorrent.png
+        icon: si-qbittorrent
         href: http://qbittorrent.nicholaswilde.io:8090/
     - netboot.xyz:
         icon: sh-netboot-xyz-light.png
@@ -54,17 +54,17 @@
         icon: https://www.influxdata.com/wp-content/uploads/production-hl-1.svg
         href: http://chronograph.nicholaswilde.io:8888
     - Grafana:
-        icon: sh-grafana.png
+        icon: si-grafana
         href: http://grafana.nicholaswilde.io:3000/
     - Prometheus:
-        icon: sh-prometheus.png
+        icon: si-prometheus
         href: http://prometheus.nicholaswilde.io:9090/
     - InfluxDB:
-        icon: sh-influxdb.png
+        icon: si-influxdb
         href: http://influxdb.nicholaswilde.io:8086/
 - Other:
     - UniFi:
-        icon: sh-ubiquiti-unifi.png
+        icon: si-ubiquiti
         href: https://192.168.1.148
     - AdGuard 2:
         icon: si-adguard

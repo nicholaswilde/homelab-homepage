@@ -4,7 +4,7 @@
         - icon: si-github
           href: https://github.com/nicholaswilde?tab=repositories
     - Stars:
-        - icon: mdi-star-#c6d312
+        - icon: mdi-star
           href: https://github.com/nicholaswilde?tab=stars
     - Proxmox VE Helper-Scripts:
         - icon: https://raw.githubusercontent.com/community-scripts/ProxmoxVE/refs/heads/main/frontend/public/logo.png
@@ -16,7 +16,7 @@
         - icon: si-materialformkdocs
           href: https://nicholaswilde.io/notes/
     - Cloudflare:
-        - icon: sh-cloudflare.png
+        - icon: si-cloudflare
           href: https://cloudflare.com
 - Icons & Emoji:
     - Simple Icons:
