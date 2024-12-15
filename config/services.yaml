@@ -31,9 +31,7 @@
     - Traefik:
         icon: si-traefikproxy
         href: http://traefik.nicholaswilde.io:8080/
-    - qBittorrent:
-        icon: si-qbittorrent
-        href: http://qbittorrent.nicholaswilde.io:8090/
+
     - netboot.xyz:
         icon: sh-netboot-xyz-light.png
         href: http://192.168.1.194:3000/
@@ -61,6 +59,9 @@
         icon: si-influxdb
         href: http://influxdb.nicholaswilde.io:8086/
 - AMD:
+    - qBittorrent:
+        icon: si-qbittorrent
+        href: http://qbittorrent.l.nicholaswilde.io:8090/
     - Proxmox 01:
         icon: si-proxmox
         href: https://pve01.l.nicholaswilde.io:8006
