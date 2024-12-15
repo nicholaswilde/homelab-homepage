@@ -15,6 +15,10 @@ layout:
     style: row
     columns: 3
     icon: mdi-laptop
+  AMD:
+    style: row
+    columns: 3
+    icon: mdi-laptop
   ARM64:
     style: row
     columns: 3

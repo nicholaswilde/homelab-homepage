@@ -43,9 +43,7 @@
     - AdGuard:
         icon: si-adguard
         href: http://adguard.nicholaswilde.io/
-    - Apt-Cacher NG:
-        icon: mdi-package-variant
-        href: http://aptcache.nicholaswilde.io:3142/acng-report.html
+
 - ARM64:
     - Proxmox Arm64:
         icon: si-proxmox
@@ -62,6 +60,13 @@
     - InfluxDB:
         icon: si-influxdb
         href: http://influxdb.nicholaswilde.io:8086/
+- AMD:
+    - Proxmox 01:
+        icon: si-proxmox
+        href: https://pve01.l.nicholaswilde.io:8006
+    - Apt-Cacher NG:
+        icon: mdi-package-variant
+        href: http://aptcache.nicholaswilde.io:3142/acng-report.html
 - Other:
     - UniFi:
         icon: si-ubiquiti
