@@ -41,7 +41,9 @@
     - AdGuard:
         icon: si-adguard
         href: http://adguard.nicholaswilde.io/
-
+    - adguardhome-sync:
+        icon: si-adguard
+        href: http://adguard01.l.nicholaswilde.io:8080/
 - ARM64:
     - Proxmox Arm64:
         icon: si-proxmox
