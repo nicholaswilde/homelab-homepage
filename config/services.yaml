@@ -37,6 +37,9 @@
     - InfluxDB:
         icon: si-influxdb
         href: http://influxdb.l.nicholaswilde.io:8086/
+    - Password Generator:
+        icon: mdi-form-textbox-password
+        href: http://192.168.1.144/
     - AdGuard01:
         icon: si-adguard
         href: http://adguard01.l.nicholaswilde.io/
