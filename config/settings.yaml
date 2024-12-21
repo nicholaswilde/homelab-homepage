@@ -11,10 +11,6 @@ layout:
     style: row
     columns: 3
     icon: mdi-desktop-classic
-  AMD64:
-    style: row
-    columns: 3
-    icon: mdi-laptop
   AMD:
     style: row
     columns: 3
@@ -27,6 +23,10 @@ layout:
     style: row
     columns: 3
     icon: mdi-folder-multiple
+  Laptop:
+    style: row
+    columns: 3
+    icon: mdi-laptop
   Developer:
     style: row
     columns: 3
