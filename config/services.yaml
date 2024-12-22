@@ -39,7 +39,7 @@
         href: http://influxdb.l.nicholaswilde.io:8086/
     - Password Generator:
         icon: mdi-form-textbox-password
-        href: http://192.168.1.144/
+        href: http://passgen.l.nicholaswilde.io/
     - AdGuard01:
         icon: si-adguard
         href: http://adguard01.l.nicholaswilde.io/
@@ -53,6 +53,12 @@
     - qBittorrent:
         icon: si-qbittorrent
         href: http://qbittorrent.l.nicholaswilde.io:8090/
+    - Authentik:
+        icon: si-authentik
+        href: http://authentik.l.nicholaswilde.io:9000/
+    - MySpeed:
+        icon: si-speedtest
+        href: http://myspeed.l.nicholaswilde.io:5216/
     - Change Detection:
         icon: sh-changedetection.png
         href: http://cd.l.nicholaswilde.io:5000/
