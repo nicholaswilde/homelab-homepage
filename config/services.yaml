@@ -65,6 +65,9 @@
     - Apt-Cacher NG:
         icon: mdi-package-variant
         href: http://aptcache.l.nicholaswilde.io:3142/acng-report.html
+    - OpenMediaVault:
+        icon: si-openmediavault
+        href: http://omv.l.nicholaswilde.io
 - Other:
     - UniFi:
         icon: si-ubiquiti
